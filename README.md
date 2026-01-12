@@ -1,56 +1,147 @@
-# AI Skill-Gap Personal Roadmap Generator
+# 🚀 Skillmap.ai — AI Skill-Gap Personal Roadmap Generator
 
-An intelligent career assistant that analyzes your resume, compares it against real-time market data, and generates a hyper-personalized learning roadmap to bridge the gap between your current skills and your dream role.
+**Skillmap.ai** is an intelligent career assistant that analyzes your resume, compares it against **real-time job-market demand**, and generates a **hyper-personalized learning roadmap** to bridge the gap between your current skills and your dream role.
 
-![Project Preview](https://via.placeholder.com/800x400?text=SkillMap.ai+Dashboard+Preview)
+It combines **AI reasoning**, **skill-gap analytics**, and **modern UI visualization** to help learners make *data-driven career decisions*.
 
-## 🚀 Key Features
+![Skillmap.ai Dashboard Preview](https://via.placeholder.com/1200x500?text=Skillmap.ai+AI+Skill-Gap+Dashboard)
 
-### 1. 📄 AI Resume Analysis
-- **Smart Parsing**: Automatically extracts skills from your uploaded resume (PDF/DOC).
-- **Confidence Scoring**: Identifies strong skills versus areas needing verification.
-- **Detailed Summary**: Generates an "Expert" candidate profile summary.
+---
 
-### 2. 📊 Skill Gap Visualization
-- **Market Comparison**: Visualizes your profile against the "perfect candidate" for roles like *AI Engineer*, *Data Scientist*, *Full Stack Developer*, and *DevOps*.
-- **Critical Gaps**: Highlights "Must-Have" skills you are missing (e.g., "Vector DBs" for AI roles).
-- **Match Score**: Calculates a real-time readiness percentage (e.g., 68% Ready).
+## 🌟 Why Skillmap.ai?
 
-### 3. 🗺️ Dynamic Learning Roadmap
-- **Phased Timeline**: Breaks down learning into manageable phases (Weeks 1-2, 3-4, etc.).
-- **Contextual "Why"**: Explains *why* a specific skill is needed (e.g., "FastAPI is preferred over Flask for async AI microservices").
-- **Actionable Steps**: Each milestone includes specific learning objectives and duration estimates.
+Most learners follow **generic courses** without knowing:
+- What skills they already have
+- What skills they’re missing
+- What the job market *actually* wants right now
 
-### 4. 🎓 AI-Curated Course Recommendations
-- **Smart Matching**: Recommends specific courses (Coursera, Udemy, DeepLearning.AI) that directly address your identified gaps.
-- **Deep Linking**: One-click access to official course pages.
-- **Filtering**: sorting by "Free" vs "Paid" options.
+**Skillmap.ai solves this by turning resumes + market data into a clear, actionable roadmap.**
 
-### 5. 📈 Live Market Insights (RAG-Style)
-- **Trend Analysis**: Provides context on *why* certain skills are hot right now (e.g., "Rise of AI Engineers").
-- **Salary Data**: Insights into salary premiums for specific tech stacks.
-- **Source Citations**: Links to valid sources (LinkedIn, StackOverflow Surveys) for trust.
+---
 
-## 🛠️ How It Works
+## ✨ Core Features
 
-1.  **Upload**: User drags & drops their resume on the landing page.
-2.  **Analyze**: The system extracts skills (Python, React, etc.) and asks the user to confirm.
-3.  **Target**: User selects a target role (e.g., **AI Engineer**).
-4.  **Generate**: The AI compares the profile vs. the target role's market requirements.
-5.  **Plan**: The Dashboard presents the personalized Gap Analysis, Roadmap, and Courses.
-6.  **Switch**: User can dynamically switch roles (e.g., check **Data Scientist** path) to see how their current skills stack up against a different career.
+### 📄 1. AI Resume Analysis
+- **Smart Parsing**: Extracts technical & soft skills from PDF/DOC resumes
+- **Confidence Scoring**: Separates verified skills from weak claims
+- **Expert Profile Summary**: Generates a recruiter-style candidate snapshot
 
-## 💻 Tech Stack
+---
 
-- **Frontend**: React 18 + Vite
-- **Styling**: Tailwind CSS v4 + Vanilla CSS Variables (Dark Mode/Theming)
-- **Icons**: Lucide React
-- **Visualization**: Recharts
-- **Animation**: CSS Keyframes + Transitions
+### 📊 2. Skill Gap Visualization
+- **Market Comparison**: Matches your profile against the *ideal candidate* for roles like:
+  - AI Engineer
+  - Data Scientist
+  - Full Stack Developer
+  - DevOps Engineer
+- **Critical Gaps**: Highlights *must-have* missing skills (e.g., Vector DBs, MLOps)
+- **Readiness Score**: Live role-fit percentage (e.g., **68% Ready**)
 
-## 🔮 Future Roadmap
+---
 
-- [ ] **Backend Integration**: Replace mock services with real Python/FastAPI backend.
-- [ ] **Real Resume Parsing**: Integration with text-extraction libraries.
-- [ ] **Live Job Feed**: Scraping real-time job listings to populate "Recent Openings".
-- [ ] **User Auth**: Save progress permanently across sessions.
+### 🗺️ 3. Dynamic Learning Roadmap
+- **Phase-Based Timeline**: Learning broken into weekly milestones
+- **Contextual “Why”**: Explains *why* a skill matters in the market
+- **Actionable Tasks**: Clear learning objectives with time estimates
+
+---
+
+### 🎓 4. AI-Curated Course Recommendations
+- **Smart Matching**: Courses mapped directly to missing skills
+- **Trusted Platforms**: Coursera, Udemy, DeepLearning.AI
+- **Filters**: Free vs Paid learning paths
+- **Direct Links**: One-click access to official courses
+
+---
+
+### 📈 5. Live Market Insights (RAG-Style)
+- **Skill Trend Analysis**: Why certain stacks are rising
+- **Salary Insights**: Skill-based salary premiums
+- **Source-Backed Data**: LinkedIn Jobs, StackOverflow Surveys
+
+---
+
+## 🔄 How It Works (End-to-End Flow)
+
+1. **Upload** → User uploads resume
+2. **Analyze** → AI extracts & validates skills
+3. **Select** → User chooses target role
+4. **Compare** → Profile vs real market requirements
+5. **Generate** → Skill gaps, roadmap, and courses
+6. **Switch Roles** → Instantly compare against other careers
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- ⚛️ React 18 (Vite)
+- 🎨 Tailwind CSS v4
+- 🌙 Dark Mode (CSS Variables)
+- 📊 Recharts
+- 🎞️ CSS Animations + Transitions
+- 🔗 Lucide React Icons
+
+### Backend (In Progress)
+- 🟢 Node.js + Express
+- 🧠 Python / FastAPI (planned)
+
+### AI & Data (Planned / In Progress)
+- 🧠 LangChain
+- 🕸️ Neo4j (Skill Knowledge Graph)
+- 🔍 RAG-based job market analysis
+
+---
+
+## 📂 Project Structure
+
+```text
+Skillmap.ai/
+│
+├── backend "Backend APIs"
+├── public "Static assets"
+├── src "Frontend source"
+│   ├── components
+│   ├── pages
+│   ├── utils
+│
+├── index.html
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
+├── eslint.config.js
+├── README.md
+└── .gitignore
+```
+
+⚙️ Setup & Installation
+1️⃣ Clone the repository
+
+git clone https://github.com/priyanshuparekh83-star/Skillmap.ai.git
+cd Skillmap.ai
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Configure environment variables
+
+Create a .env file:
+
+VITE_API_URL=http://localhost:5000
+
+
+⚠️ Never commit .env to GitHub
+
+4️⃣ Run the frontend
+npm run dev
+
+
+Open:
+
+http://localhost:5173
+
+5️⃣ Run backend (optional)
+cd backend
+npm install
+npm start
