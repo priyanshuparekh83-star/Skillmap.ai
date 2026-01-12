@@ -115,33 +115,31 @@ Skillmap.ai/
 └── .gitignore
 ```
 
-⚙️ Setup & Installation
-1️⃣ Clone the repository
-
+###⚙️ Setup & Installation
+##1️⃣ Clone the repository
+```bash
 git clone https://github.com/priyanshuparekh83-star/Skillmap.ai.git
 cd Skillmap.ai
-
-2️⃣ Install dependencies
+```
+##2️⃣ Install dependencies
+```bash
 npm install
-
-3️⃣ Configure environment variables
-
+```
+##3️⃣ Configure environment variables
+```bash
 Create a .env file:
-
 VITE_API_URL=http://localhost:5000
-
-
 ⚠️ Never commit .env to GitHub
-
-4️⃣ Run the frontend
+```
+##4️⃣ Run the frontend
+```bash
 npm run dev
-
-
 Open:
-
 http://localhost:5173
-
-5️⃣ Run backend (optional)
+```
+##5️⃣ Run backend 
+```bash
 cd backend
 npm install
 npm start
+```
