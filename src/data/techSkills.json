@@ -1,0 +1,164 @@
+[
+    {
+        "id": "skill_vector_db",
+        "name": "Vector Databases",
+        "description": "Specialized databases designed to store and query high-dimensional vector embeddings for semantic search.",
+        "difficulty": "Intermediate",
+        "prerequisites": [
+            "Python",
+            "Database Fundamentals",
+            "Basic NLP"
+        ],
+        "relatedRoles": [
+            "AI Engineer",
+            "Machine Learning Engineer",
+            "Backend Developer"
+        ],
+        "marketRelevance": "Critical for RAG (Retrieval Augmented Generation) architectures. High demand in GenAI startups.",
+        "tools": [
+            "Pinecone",
+            "Weaviate",
+            "Milvus",
+            "ChromaDB"
+        ]
+    },
+    {
+        "id": "skill_rag",
+        "name": "RAG (Retrieval Augmented Generation)",
+        "description": "Technique to enhance LLM responses by retrieving relevant data from outside the foundation model.",
+        "difficulty": "Advanced",
+        "prerequisites": [
+            "Vector Databases",
+            "LLM APIs",
+            "Python"
+        ],
+        "relatedRoles": [
+            "AI Engineer",
+            "LLM Developer"
+        ],
+        "marketRelevance": "The industry standard for building enterprise AI apps that require domain-specific knowledge.",
+        "tools": [
+            "LangChain",
+            "LlamaIndex"
+        ]
+    },
+    {
+        "id": "skill_langchain",
+        "name": "LangChain",
+        "description": "Framework for developing applications powered by language models, enabling chaining of calls.",
+        "difficulty": "Intermediate",
+        "prerequisites": [
+            "Python",
+            "JavaScript",
+            "API Integration"
+        ],
+        "relatedRoles": [
+            "AI Engineer",
+            "Full Stack Developer (AI)"
+        ],
+        "marketRelevance": "The most widely adopted orchestration framework for LLMs. Essential for building agents.",
+        "tools": [
+            "LangChain Python",
+            "LangChain JS"
+        ]
+    },
+    {
+        "id": "skill_react",
+        "name": "React.js",
+        "description": "JavaScript library for building user interfaces based on components.",
+        "difficulty": "Intermediate",
+        "prerequisites": [
+            "JavaScript (ES6+)",
+            "HTML/CSS"
+        ],
+        "relatedRoles": [
+            "Frontend Developer",
+            "Full Stack Developer",
+            "UX Engineer"
+        ],
+        "marketRelevance": "Remains the dominant frontend library. Required for 80% of frontend roles.",
+        "tools": [
+            "Vite",
+            "Next.js",
+            "Redux"
+        ]
+    },
+    {
+        "id": "skill_fastapi",
+        "name": "FastAPI",
+        "description": "Modern, fast (high-performance) web framework for building APIs with Python 3.7+.",
+        "difficulty": "Intermediate",
+        "prerequisites": [
+            "Python",
+            "AsyncIO",
+            "REST APIs"
+        ],
+        "relatedRoles": [
+            "Backend Developer",
+            "AI Engineer",
+            "Data Engineer"
+        ],
+        "marketRelevance": "The go-to framework for serving AI models due to its speed and native async support.",
+        "tools": [
+            "Pydantic",
+            "Uvicorn"
+        ]
+    },
+    {
+        "id": "skill_nextjs",
+        "name": "Next.js",
+        "description": "The React Framework for the Web. Enables server-side rendering and static site generation.",
+        "difficulty": "Advanced",
+        "prerequisites": [
+            "React",
+            "Node.js"
+        ],
+        "relatedRoles": [
+            "Full Stack Developer",
+            "Frontend Developer"
+        ],
+        "marketRelevance": "Standard for production-grade React applications favoring SEO and performance.",
+        "tools": [
+            "Vercel",
+            "Turbopack"
+        ]
+    },
+    {
+        "id": "skill_typescript",
+        "name": "TypeScript",
+        "description": "Typed superset of JavaScript that compiles to plain JavaScript.",
+        "difficulty": "Intermediate",
+        "prerequisites": [
+            "JavaScript"
+        ],
+        "relatedRoles": [
+            "Frontend Developer",
+            "Backend Developer (Node)"
+        ],
+        "marketRelevance": "Non-negotiable for large-scale codebases. Replaced JS in most enterprise stacks.",
+        "tools": [
+            "TSC",
+            "Zod"
+        ]
+    },
+    {
+        "id": "skill_docker",
+        "name": "Docker & Containerization",
+        "description": "Platform for developing, shipping, and running applications in containers.",
+        "difficulty": "Intermediate",
+        "prerequisites": [
+            "Linux Basics",
+            "CLI"
+        ],
+        "relatedRoles": [
+            "DevOps Engineer",
+            "Backend Developer",
+            "AI Engineer"
+        ],
+        "marketRelevance": "Essential for deployment. 'It works on my machine' is no longer an acceptable excuse.",
+        "tools": [
+            "Docker Compose",
+            "Kubernetes"
+        ]
+    }
+]

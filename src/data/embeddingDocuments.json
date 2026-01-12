@@ -1,0 +1,34 @@
+[
+    {
+        "id": "doc_vector_db",
+        "content": "Skill: Vector Databases. Description: Specialized databases designed to store and query high-dimensional vector embeddings for semantic search. Difficulty: Intermediate. Prerequisites: Python, Database Fundamentals, Basic NLP. Relevant Job Roles: AI Engineer, Machine Learning Engineer, Backend Developer. Market Relevance: Critical for RAG (Retrieval Augmented Generation) architectures. High demand in GenAI startups. Tools: Pinecone, Weaviate, Milvus, ChromaDB."
+    },
+    {
+        "id": "doc_rag",
+        "content": "Skill: RAG (Retrieval Augmented Generation). Description: Technique to enhance LLM responses by retrieving relevant data from outside the foundation model. Difficulty: Advanced. Prerequisites: Vector Databases, LLM APIs, Python. Relevant Job Roles: AI Engineer, LLM Developer. Market Relevance: The industry standard for building enterprise AI apps that require domain-specific knowledge. Tools: LangChain, LlamaIndex."
+    },
+    {
+        "id": "doc_langchain",
+        "content": "Skill: LangChain. Description: Framework for developing applications powered by language models, enabling chaining of calls. Difficulty: Intermediate. Prerequisites: Python, JavaScript, API Integration. Relevant Job Roles: AI Engineer, Full Stack Developer (AI). Market Relevance: The most widely adopted orchestration framework for LLMs. Essential for building agents. Tools: LangChain Python, LangChain JS."
+    },
+    {
+        "id": "doc_react",
+        "content": "Skill: React.js. Description: JavaScript library for building user interfaces based on components. Difficulty: Intermediate. Prerequisites: JavaScript (ES6+), HTML/CSS. Relevant Job Roles: Frontend Developer, Full Stack Developer, UX Engineer. Market Relevance: Remains the dominant frontend library. Required for 80% of frontend roles. Tools: Vite, Next.js, Redux."
+    },
+    {
+        "id": "doc_fastapi",
+        "content": "Skill: FastAPI. Description: Modern, fast (high-performance) web framework for building APIs with Python 3.7+. Difficulty: Intermediate. Prerequisites: Python, AsyncIO, REST APIs. Relevant Job Roles: Backend Developer, AI Engineer, Data Engineer. Market Relevance: The go-to framework for serving AI models due to its speed and native async support. Tools: Pydantic, Uvicorn."
+    },
+    {
+        "id": "doc_nextjs",
+        "content": "Skill: Next.js. Description: The React Framework for the Web. Enables server-side rendering and static site generation. Difficulty: Advanced. Prerequisites: React, Node.js. Relevant Job Roles: Full Stack Developer, Frontend Developer. Market Relevance: Standard for production-grade React applications favoring SEO and performance. Tools: Vercel, Turbopack."
+    },
+    {
+        "id": "doc_typescript",
+        "content": "Skill: TypeScript. Description: Typed superset of JavaScript that compiles to plain JavaScript. Difficulty: Intermediate. Prerequisites: JavaScript. Relevant Job Roles: Frontend Developer, Backend Developer (Node). Market Relevance: Non-negotiable for large-scale codebases. Replaced JS in most enterprise stacks. Tools: TSC, Zod."
+    },
+    {
+        "id": "doc_docker",
+        "content": "Skill: Docker & Containerization. Description: Platform for developing, shipping, and running applications in containers. Difficulty: Intermediate. Prerequisites: Linux Basics, CLI. Relevant Job Roles: DevOps Engineer, Backend Developer, AI Engineer. Market Relevance: Essential for deployment. 'It works on my machine' is no longer an acceptable excuse. Tools: Docker Compose, Kubernetes."
+    }
+]
